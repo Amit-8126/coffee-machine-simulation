@@ -1,0 +1,36 @@
+# coffee.py
+
+MENU = {
+    "espresso": {
+        "ingredients": {
+            "water": 50,
+            "milk": 0,
+            "coffee": 18
+        },
+        "cost": 50
+    },
+    "latte": {
+        "ingredients": {
+            "water": 200,
+            "milk": 150,
+            "coffee": 24
+        },
+        "cost": 100
+    },
+    "cappuccino": {
+        "ingredients": {
+            "water": 250,
+            "milk": 100,
+            "coffee": 24
+        },
+        "cost": 120
+    }
+}
+
+resources = {
+    "water": 1000,
+    "milk": 800,
+    "coffee": 500,
+    "money": 0
+}
+
